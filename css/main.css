@@ -21,6 +21,11 @@ body{
 		margin-top: 10%;
 	}
 }
+@media (max-width:500px) { 
+	.redes{
+		margin-top: 0px;
+	}
+}
 header .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: rgba(23,20,29,06);
@@ -105,6 +110,126 @@ footer{
 .development blockquote{
 	border-color: #8193A6;
 }
+/*blog*/
+
+
+ .caja {
+  background-color: white;
+  padding: 3%;
+  box-shadow: 0px 2px 2px #c9d1d6;
+ }
+.caja img{
+  width:100%;
+}
+.portfolio .row .col-md-4{
+  margin-bottom: 2%;
+}
+.boxx h5{
+  margin-bottom: 0;
+  font-weight: 600; 
+}
+/*blogss*/
+.pagination  a:hover{
+ color: black;
+}
+
+.caja img{
+  width: 100%;
+}
+.btn-group>.btn:first-child {
+    margin-left: 15px;
+}
+.caja i{
+  margin-left: 2%;
+  color: #787878 ;
+}
+.caja{
+   background-color: white;
+   padding: 0% 0% 2%  0;
+  box-shadow: 0px 2px 2px #c9d1d6;
+}
+.caja i h6{
+  color: gray;
+  font-size: 60px;
+}
+.caja h3{
+  padding: 0 2%  0;
+}
+.caja p{
+  padding: 2% 2% 0%;
+}
+ .blogs .imag{
+  margin-top: 7%;
+}
+.blogs h4{
+  font-size: 23px;
+  margin-top: 12%;
+}
+/*contac*/
+ textarea.form-control {
+    height: auto;
+    margin-top: 15%;
+}
+
+/*item*/
+.item textarea.form-control{
+	margin-top: 0%;
+	margin-bottom: 3%;
+}
+.leave{
+	font-size: 1.5em;
+}
+span{
+	font-size: 10px;
+	margin-left: 5px;
+}
+.meg{
+	background-color:#EEEEEE;
+	padding: 2%
+
+}
+.mext{
+	padding: 2%;
+}
+.mex{
+	padding: 2%;
+	background-color: #EEEEEE;
+	margin:2% 3%; 
+}
+.item h4{
+	margin-left: 2%;
+	font-size: 15px;
+}
+.item h5{
+  margin-left: 2%;
+}
+.item .cont{
+  background-color: red;
+  padding: 0% 0% 2% 0%;
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 3%;
+  box-shadow: 0px  2px 2px #c9d1d6;
+}
+.item h2{
+	margin-left: 2%;
+	font-size: 25px;
+}
+.item  h3{
+   font-size: 23px;
+  margin-top: 12%;
+}
+ .item .imag{
+  margin-top: 7%;
+}
+ .boxx {
+  background-color: white;
+  padding: 3%;
+  box-shadow: 0px 2px 2px #c9d1d6;
+ }
+.boxx img{
+  width:100%;
+}
 /*comun*/
 .bg-green{
 	background-color: #2ecc71;
@@ -136,6 +261,9 @@ footer{
 .pb-5 {
 	padding-bottom: 5%;
 }
+.pt-5{
+	padding-top: 5%;
+}
 .text-black{
 	color: black;
 }
@@ -152,3 +280,6 @@ footer{
 	text-align: left;
 }
 
+.mt-3{
+	margin-top: 3%;
+}
